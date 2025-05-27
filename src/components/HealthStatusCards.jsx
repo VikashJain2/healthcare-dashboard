@@ -16,7 +16,7 @@ const HealthStatusCards = () => {
             </div>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-2.5">
-            <div className={`bg-${data.status}-500 h-2.5 rounded-full`} style={{ width: data.width }}></div>
+            <div className={`${data.barColor} h-2.5 rounded-full`} style={{ width: data.width }}></div>
           </div>
         </div>
       ))}
