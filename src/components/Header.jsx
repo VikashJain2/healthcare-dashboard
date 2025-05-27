@@ -17,7 +17,6 @@ const Header = () => {
         </div>
         <i className="fas fa-bell text-gray-600 text-lg sm:text-xl"></i>
         <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-blue-500 rounded-full"></div>
           <span className="text-gray-600 text-sm sm:text-base hidden sm:block">User</span>
         </div>
         <button className="p-2 bg-blue-500 text-white rounded-full hover:bg-blue-600">
