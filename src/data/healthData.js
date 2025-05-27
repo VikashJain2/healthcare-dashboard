@@ -1,7 +1,7 @@
 export const healthData = [
-  { part: 'Lungs', icon: 'fa-lungs', status: 'green', date: 'Date: 26 Oct 2021' },
-  { part: 'Teeth', icon: 'fa-tooth', status: 'green', date: 'Date: 26 Oct 2021' },
-  { part: 'Bone', icon: 'fa-bone', status: 'green', date: 'Date: 26 Oct 2021' },
+  { part: 'Lungs', icon: 'fa-lungs', status: 'red', date: 'Date: 26 Oct 2021' , color: "text-red-400/50", width: "50%"},
+  { part: 'Teeth', icon: 'fa-tooth', status: 'green', date: 'Date: 26 Oct 2021',color:"text-gray-300", width: "95%" },
+  { part: 'Bone', icon: 'fa-bone', status: 'yellow', date: 'Date: 26 Oct 2021',color:"text-gray-500" ,width:"75%" },
 ];
 
 export const anatomyIndicators = [
